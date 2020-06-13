@@ -25,14 +25,14 @@ Step 1) npm init
 
 ## Set up environment variable in file .env
 Step 2) add value in file .env
-[HOST_IP_ADDRESS_FOR_VERIFY] = When client verify by email, redirect on website result of verify 
-[HOST_IP_ELASTICSEARCH] = IP Address of elasticsearch
-[MONGO_USER] = User of mongoDB
-[MONGO_PASSWORD] = Password of mongoDB
-[MONGO_HOST_IP] = IP Address of mongoDB
+- [HOST_IP_ADDRESS_FOR_VERIFY] = When client verify by email, redirect on website result of verify 
+- [HOST_IP_ELASTICSEARCH] = IP Address of elasticsearch
+- [MONGO_USER] = User of mongoDB
+- [MONGO_PASSWORD] = Password of mongoDB
+- [MONGO_HOST_IP] = IP Address of mongoDB
 
 ## Set up ip address for requestor ( validationSuccess.ejs )
-[HOST_IP_ADDRESS_FOR_VERIFY] = When client verify by email, redirect on website result of verify 
+- [HOST_IP_ADDRESS_FOR_VERIFY] = When client verify by email, redirect on website result of verify 
 
 ## Set up ip address for change password ( validationChangePassword.ejs ) - COMING SOON
 
