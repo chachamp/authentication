@@ -1,0 +1,171 @@
+# GET http://35.185.183.115:9200/customerauthentication/_search
+
+# GET https://true.i-aiot.com:8443/api/solution
+# # 
+
+# GET http://35.240.203.127:8080/api/solution
+
+# POST https://true.i-aiot.com:2083/api/v1.0/login
+# content-type: application/json
+
+# {
+#     "LoginType": "Facebook",
+#     "ApplicationName": "SmartLogger",
+#     "ApplicationAdjunct": {},
+#     "FacebookID": "0000002",
+#     "FacebookName": "Worawut Intraraksakul",
+#     "FacebookEmail": "58011116@kmitl.ac.th"
+# }
+
+# POST http://localhost:5000/api/v1.0/login
+# content-type: application/json
+
+# {
+#     "LoginType": "Facebook",
+#     "ApplicationName": "Smart Meter",
+#     "ApplicationAdjunct": {},
+#     "FacebookID": "000001",
+#     "FacebookName": "Pisanu Chomputhong",
+#     "FacebookEmail": "58011116@kmitl.ac.th"
+# }
+
+# POST http://localhost:5000/api/v1.0/login
+# content-type: application/json
+
+# {
+#     "LoginType": "Google",
+#     "ApplicationName": "CloudSocialWifi",
+#     "ApplicationAdjunct":  {},
+#     "GoogleID": "100003",
+#     "GoogleName": "Test3",
+#     "GoogleEmail": "cc12@hotmail.com"
+# }
+
+# POST http://localhost:5000/api/v1.0/login
+# content-type: application/json
+
+# {
+#     "LoginType": "Google",
+#     "ApplicationName": "SmartMeter",
+#     "ApplicationAdjunct":  {},
+#     "GoogleID": "100002",
+#     "GoogleName": "Test3",
+#     "GoogleEmail": "cc13@hotmail.com"
+# }
+
+# POST http://localhost:5000/api/v1.0/login
+# content-type: application/json
+
+# {
+#     "LoginType": "Twitter",
+#     "ApplicationName": "SmartCarParking",
+#     "ApplicationAdjunct": {},
+#     "TwitterID": "200001",
+#     "TwitterName": "Test3",
+#     "TwitterEmail": "cc7@i-skynetone.com"
+# }
+
+# POST http://localhost:5000/api/v1.0/login
+# content-type: application/json
+
+# {
+#     "LoginType": "Twitter",
+#     "ApplicationName": "SmartMeter",
+#     "ApplicationAdjunct": {},
+#     "TwitterID": "200002",
+#     "TwitterName": "Test3",
+#     "TwitterEmail": "cc7@i-skynetone.com"
+# }
+
+
+
+# POST http://localhost:5000/api/v1.0/login
+# content-type: application/json
+
+# {
+#     "LoginType": "Twitter",
+#     "ApplicationName": "Smart Meter",
+#     "ApplicationAdjunct": {},
+#     "TwitterID": "200007",
+#     "TwitterName": "Test3",
+#     "TwitterEmail": "58011116@kmitl.ac.th"
+# }
+
+# POST http://localhost:5000/api/mail
+# content-type: application/json
+
+# {
+#     "ApplicationName": "SmartMeter1",
+#     "ApplicationAdjunct": {},
+#     "CustomerEmail": "zorka1@i-skynetone.com",
+#     "CustomerPassword": "123456",
+#     "CustomerTitle": "Mr.",
+#     "CustomerGender": "Man",
+#     "CustomerFirstName": "Aey",
+#     "CustomerLastName": "Oum",
+#     "CustomerTelephone": [{"Typeof": [ {"Mobiles": ["082222222"] }, {"Faxs": []} ]}]
+# }
+
+# POST https://true.i-aiot.com:2083/api/v1.0/register
+# content-type: application/json
+
+# {   
+#     "ApplicationName": "Smart Data Logger 6",
+#     "ApplicationAdjunct": {},
+#     "CustomerEmail": "chachamp92@gmail.com",
+#     "CustomerPassword": "123456",
+#     "CustomerTitle": "Mr.",
+#     "CustomerFirstName": "Worawut",
+#     "CustomerLastName": "Intraraksakul",
+#     "CustomerTelephone": [{"Typeof": [ {"Mobiles": ["082222222"] }, {"Faxs": []} ]}]
+# }
+
+POST https://true.i-aiot.com:2083/api/v1.0/verify
+content-type: application/json
+
+{   
+    "ApplicationName": "Smart Data Logger 6",
+    "CustomerEmail": "chachamp92@gmail.com"
+}
+
+
+# POST http://localhost:5000/api/v1.0/verify
+# content-type: application/json
+
+# {   
+#     "ApplicationName": "Smart Meter",
+#     "CustomerEmail": "58011116@kmitl.ac.th"
+# }
+
+# POST https://ai.i-aiot.com/authentication/v1.0/validation/account
+# content-type: application/json
+
+# {   
+#     "hash": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+#     "appName": "Smart Data Logger 4",
+#     "customerEmail": "chachamp92@gmail.com"
+# }
+
+# DELETE http://35.185.183.115:9200/customerprofile
+# content-type: application/json
+
+# POST http://localhost:5000/api/v1.0/changepassword
+# content-type: application/json
+
+# {   
+#     "ChangePasswordType": "Zorka",
+#     "CustomerEmail": "58011116@kmitl.ac.th",
+#     "ApplicationName": "Smart Meter",
+#     "CustomerPasswordOld": "123456",
+#     "CustomerPasswordNew": "1234567"
+# }
+
+
+
+# POST http://localhost:5000/api/v1.0/verify
+# content-type: application/json
+
+# {
+#     "ApplicationName": "SmartMeter",
+#     "CustomerEmail": "zorka1@i-skynetone.com"
+# }
