@@ -13,7 +13,7 @@
 - Change password system ( coming soon )
 
 # Details
-- Can look data structure of system in file.xlsx 
+- Can look data structure of system in ZorkaAuthSpec-V.2.xlsx
 
 # Architecture 
 - Can look picture architect on directory -> Architecture
