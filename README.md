@@ -22,7 +22,7 @@
 # How to use
 
 ## for install package of authentication system
-Step 1) npm init 
+Step 1) npm install
 
 ## Set up environment variable in file .env
 Step 2) add value in file .env
