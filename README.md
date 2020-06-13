@@ -1,7 +1,7 @@
 # Authentication System - With Social Login and System Login
 
 # Highlight
-- Login with zorka login, facebook, google and twitter
+- Login with Zorka, Facebook, Google and Twitter
 - Script develop by Node.js
 - Database for authenticate is Elasticsearch
 - Database for tracking error is MongoDB
